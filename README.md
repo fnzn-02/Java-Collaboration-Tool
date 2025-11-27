@@ -36,6 +36,34 @@
 
 ---
 
+## 📸 Screenshots (실행 화면)
+
+### 1. 로그인 화면 (Login)
+깔끔한 파스텔 블루 톤의 UI 디자인을 적용했습니다. 사용자 경험(UX)을 고려하여 직관적인 레이아웃을 구성했습니다.
+![Login Screen](images/01_login.png)
+
+### 2. 회원가입 (Register)
+새로운 사용자를 등록합니다. 비밀번호는 SHA-256 알고리즘과 Salt를 사용하여 안전하게 암호화되어 DB에 저장됩니다.
+![Register Screen](images/02_register.png)
+
+### 3. 메인 할 일 목록 (Task List)
+선택한 프로젝트의 할 일 목록을 한눈에 볼 수 있습니다. 우선순위, 마감일, 상태별로 정렬되며 태그를 통해 직관적인 구분이 가능합니다.
+![Main List](images/03_main_list.png)
+
+### 4. 작업 상세 및 수정 (Task Detail)
+작업의 세부 내용을 확인하고 수정할 수 있습니다. 댓글 작성, 파일 첨부, 히스토리 조회가 가능하며 담당자와 상태를 즉시 변경할 수 있습니다.
+![Task Detail](images/04_task_detail.png)
+
+### 5. 실시간 대시보드 (Dashboard)
+프로젝트의 진행 상황을 실시간 통계로 시각화했습니다. 전체 작업 수, 진행률, 지연된 작업 등을 한눈에 파악할 수 있습니다.
+![Dashboard](images/05_dashboard.png)
+
+### 6. 팀 채팅 & 파일 공유 (Chat & File Share)
+프로젝트 멤버들과 실시간으로 소통하며 파일을 주고받을 수 있습니다. 업로드된 파일은 서버에 저장되며 언제든 다시 다운로드할 수 있습니다.
+![Chat and File](images/06_chat_file.png)
+
+---
+
 ## 💾 Database Schema (ERD)
 이 프로젝트는 `Users`, `Projects`, `Tasks`, `Attachments`, `Comments` 등 정규화된 관계형 데이터베이스 설계를 따릅니다.
 *(database 폴더 내의 SQL 파일을 참고하세요)*
