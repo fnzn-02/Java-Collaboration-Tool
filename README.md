@@ -85,6 +85,6 @@
 ---
 
 ## 👨‍💻 Developer
-- **Name**: 루쿠
-- **Role**: Backend & Client Developer
+- **Name**: 정래흥
+- **Role**: Backend Developer (회원인증, 권한 관리, 파일 전송 구현)
 - **Contact**: jdw2318@gmail.com
