@@ -86,5 +86,9 @@
 
 ## 👨‍💻 Developer
 - **Name**: 정래흥
-- **Role**: Backend Developer (회원인증, 권한 관리, 파일 전송 구현)
+- **Role**: Backend Developer
+- **주요 구현 내용**:
+- 회원인증: SHA-256 + Salt 기반 비밀번호 해싱
+- 권한 관리: 역할(ADMIN/MANAGER/MEMBER) 기반 접근 제어
+- 파일 전송: Base64 인코딩 기반 Socket 텍스트 프로토콜 파일 업로드/다운로드
 - **Contact**: jdw2318@gmail.com
